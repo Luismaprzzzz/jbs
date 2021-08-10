@@ -1,0 +1,35 @@
+    <form action="{{url_for('Info')}}" method="POST">
+
+    <form action="/editar_producto/{{producto.0}}" method="POST">
+            <div>
+                <label for="">Nombre producto:</label>
+                <input type="text" name="nombre" id="nombre" value="{{producto.1}}">
+            </div>
+            <div>
+                <label for="descripcion">Descripcion del producto:</label>
+                <textarea id="descripcion" name="descripcion">{{producto.2}}</textarea>
+            </div>
+            <div>
+                <label for="precio">Precio</label>
+                <input type="text" name="precio" id="precio" value="{{producto.3}}">
+            </div>
+            <div>
+                <input type="submit" name="Actualizar" value="Actualizar">
+            </div>
+</form>
+
+
+    <form action="/editar_producto/{{producto.0}}" method="POST">
+<div class="Formu">
+
+    <label for="Producto">Producto</label>
+    <br><input class="estilo" type="text" id="Producto" name="Producto" value="{{producto.1}}">
+    <label for="Precio">Precio</label>
+    <br><input class="estilo" type="number" id="Precio" name="Precio" value="{{producto.2}}">
+    <label for="Descripcion">Descripcion</label>
+    <br><input class="estilo" id="Descripcion" name="Descripcion" value="{{producto.3}}">
+
+    <input type="submit" name="Actualizar" value="Actualizar">
+
+
+</div>
