@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  margin: 0px auto;
+   }
+
+  body {
+background: #4568DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.navegacion {
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border:none;
+    padding: 20px;
+    font-size: 40px;
+    padding:20px;
+    }
+    .navegacion h2{
+    color:black;
+
+    }
+
+
+.tache{
+width:100%;
+height:80px;
+background: #304352;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.in{
+ font: bold 150px Arial;
+    padding: 20px
+}
+.tache button{
+width:5%;
+padding:10px;
+height:30px;
+margin-bottom: 15px;
+
+}
+.New input{
+width: 30%;
+height: 40px;
+padding: 30px;
+margin-top: 20px;
+border-radius: 20px;
+font-size: 30px;
+margin-bottom: 10px;
+
+}
+.New label{
+font:40px arial;
+padding:10px;
+color: white;
+}
+
+.New select{
+width: 30%;
+height: 50px;
+padding: 25px;
+margin-top: 20px;
+border-radius: 15px;
+font-size: 30px;
+margin-bottom: 15px;
+
+}
+
+.cr a{
+   padding:30px;
+    width:10%;
+    height:20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+
+}
+.fot img{
+padding:10px;
+width:10%;
+height:200px;
+
+}

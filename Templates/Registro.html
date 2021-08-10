@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrarse</title>
+    <link rel="shortcut icon" href="./static/images/JBS.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/CSS/crear.css" type="text/css">
+</head>
+<body>
+<div class="navegacion">
+<nav class="navbar ">
+
+    <a class="navbar-brand" href="#">
+      <img src="./static/images/Logo SS.png" alt="" width="100" height=100" class="d-inline-block align-text-start">
+
+    </a>
+
+    <a class="nav-link active" aria-current="page" href="/"><h2>Inicio</h2></a>
+
+
+    <a class="nav-link" href="/iniciar"><h2>Iniciar Sesion</h2></a>
+
+</nav>
+</div>
+
+<div class="in text-center text-white-50">
+
+    <p>Crea tu cuenta</p>
+
+</div>
+
+<div class="New text-center">
+    <label>Nombre</label>
+     <input type="text"  required>
+
+     <label>Apellido</label>
+    <input type="text" required>
+    <br>
+     <label>Correo</label>
+    <input type="email"  id="exampleInputEmail1" aria-describedby="emailHelp">
+
+     <label>Usuario</label>
+    <input type="text" value="@" required>
+
+
+    <br>
+     <label>Contraseña</label>
+    <input type="password" required>
+
+     <label>Sexo</label>
+    <select class="select" >
+    <option value="1">sexo</option>
+    <option value="2">Hombre</option>
+    <option value="3">Mujer</option>
+    </select>
+
+
+    <br>
+     <label>Fecha de Nacimiento</label>
+    <input type="date"  value="mes" required>
+
+
+</div>
+<div class="cr text-center">
+    <a class="btn btn-outline-light" href="/Perfil" role="button"><p>Crear</p></a>
+
+</div>
+
+
+
+</body>
+</html>

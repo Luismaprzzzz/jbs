@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  margin: 0px auto;
+   }
+
+  body {
+  background: #1e3c72;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  }
+
+
+  .navegacion {
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border:none;
+    padding: 10px;
+    font-size: 40px;
+    padding:10px;
+    }
+    .navegacion h2{
+    color:black;
+
+    }
+    .mensaje{
+    font: bold 150px Arial;
+    padding: 20px
+
+    }
+    .contexto{
+    font: bold 50px Arial;
+    padding: 50px;
+
+
+    }
+
+    .Iniciar{
+    width:60%;
+    height:10px;
+
+    }
+    .Iniciar a {
+    padding:30px;
+    width:10%;
+    height:20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    }
+
+    .ima img{
+    width:70%;
+    height:20%;
+    padding:50px;
+
+
+
+    }
+
+
+
+
+
+
+
