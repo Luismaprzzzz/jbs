@@ -1,18 +1,18 @@
 from flask import Flask, render_template
 
 
-app = Flask(__name__)
+app = Flask('__name__')
 
-@app.route("Pagina")
-def Pagina():
-    return render_template("Page.html")
+@app.route("/")
+def Page():
+    return render_template("/Page.html")
 
 @app.route("/iniciar")
 def iniciar():
-    return render_template("Login.html")
+    return render_template("/Login.html")
 @app.route("/Formulario")
 def Formulario():
-    return render_template("Registro.html")
+    return render_template("/Registro.html")
 
 @app.route("/Perfil")
 def Perfil():
@@ -20,4 +20,4 @@ def Perfil():
 
 
 if __name__ == '__main__':
-    app.run(port=3000, debug=True)
+    app.run(debug=True)
