@@ -3,7 +3,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("Pagina")
 def Pagina():
     return render_template("Page.html")
 
